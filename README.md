@@ -243,7 +243,31 @@ The generated B-mode image includes:
 - Dark circular cyst
 - Simulated attenuation effects
 
-*(Add screenshots here after uploading images.)*
+# Example Results
+
+## Digital Phantom
+
+The simulated phantom contains background tissue scatterers, two reflective tissue boundaries, and a low-reflectivity cyst.
+
+![Digital Phantom](images/phantom.png)
+
+## Simulated RF Signal
+
+Example RF echo signal generated from one ultrasound beam.
+
+![RF Signal](images/rf_signal.png)
+
+## Envelope Detection
+
+The Hilbert transform extracts the echo envelope from the oscillating RF signal.
+
+![Envelope](images/envelope.png)
+
+## B-Mode Ultrasound Reconstruction
+
+The reconstructed grayscale B-mode ultrasound image after signal processing.
+
+![B-Mode Reconstruction](images/bmode.png)
 
 ```
 Example:
