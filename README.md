@@ -73,18 +73,20 @@ B-Mode Ultrasound Image
 
 ```
 UltrasoundReconstruction/
-
 │
 ├── data/
-│   └── simulated_rf.npy
+│   └── simulated_rf.npy          # Simulated RF ultrasound data
 │
-├── generate_simulated_rf.py
-├── processing.py
-├── visualization.py
-├── main.py
+├── images/                       # Screenshots for documentation
+│
+├── generate_simulated_rf.py      # Generates the digital phantom and RF data
+├── processing.py                 # DSP pipeline functions
+├── visualization.py              # Image display functions
+├── main.py                       # Runs the complete reconstruction pipeline
 │
 ├── README.md
-└── requirements.txt
+├── LICENSE.md
+└── .gitignore
 ```
 
 ---
